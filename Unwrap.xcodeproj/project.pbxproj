@@ -594,6 +594,7 @@
 		51FE151B20E25F1200F29889 /* range-operators.html in Resources */ = {isa = PBXBuildFile; fileRef = 51FE139420E25F1100F29889 /* range-operators.html */; };
 		51FE151C20E25F1200F29889 /* protocol-extensions.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 51FE139520E25F1100F29889 /* protocol-extensions.mp4 */; };
 		51FE151E20E2814E00F29889 /* StudyReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE151D20E2814E00F29889 /* StudyReview.swift */; };
+		9B99CEED26B659B50096B5FA /* levelUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B99CEEC26B659B50096B5FA /* levelUp.wav */; };
 		A9476512228DF2E7005CC249 /* DynamicHeightHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9476511228DF2E7005CC249 /* DynamicHeightHeaderView.swift */; };
 		B93AEC4B2273DB68005A50DF /* PracticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEC4A2273DB68005A50DF /* PracticeTableViewCell.swift */; };
 		B93AEC4D2273DE70005A50DF /* ChallengeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEC4C2273DE70005A50DF /* ChallengeTableViewCell.swift */; };
@@ -1232,6 +1233,7 @@
 		51FE139520E25F1100F29889 /* protocol-extensions.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "protocol-extensions.mp4"; sourceTree = "<group>"; };
 		51FE151D20E2814E00F29889 /* StudyReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyReview.swift; sourceTree = "<group>"; };
 		879EE4E91437B6378BB24AE1 /* Pods-Unwrap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unwrap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Unwrap/Pods-Unwrap.release.xcconfig"; sourceTree = "<group>"; };
+		9B99CEEC26B659B50096B5FA /* levelUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = levelUp.wav; sourceTree = "<group>"; };
 		A9476511228DF2E7005CC249 /* DynamicHeightHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightHeaderView.swift; sourceTree = "<group>"; };
 		AA4718A94B659E9A42AEC33E /* Pods-UnwrapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnwrapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnwrapTests/Pods-UnwrapTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B93AEC4A2273DB68005A50DF /* PracticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTableViewCell.swift; sourceTree = "<group>"; };
@@ -1342,6 +1344,7 @@
 		5156459220E116EE00CED877 /* Content */ = {
 			isa = PBXGroup;
 			children = (
+				9B99CEEC26B659B50096B5FA /* levelUp.wav */,
 				51FE120E20E25F1000F29889 /* SixtySeconds */,
 				5156459520E116EE00CED877 /* Assets.xcassets */,
 				5156459320E116EE00CED877 /* Colors.xcassets */,
@@ -2400,6 +2403,7 @@
 				51FE147120E25F1200F29889 /* arrays-vs-sets-vs-tuples.json in Resources */,
 				51FE144720E25F1200F29889 /* properties-and-methods-of-arrays.html in Resources */,
 				51FE151120E25F1200F29889 /* lazy-properties.png in Resources */,
+				9B99CEED26B659B50096B5FA /* levelUp.wav in Resources */,
 				51FE13B520E25F1200F29889 /* unwrapping-optionals.json in Resources */,
 				51FE14E520E25F1200F29889 /* strings-and-integers.html in Resources */,
 				5156459820E116EE00CED877 /* Colors.xcassets in Resources */,

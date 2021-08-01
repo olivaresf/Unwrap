@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 /// The view controller that handles visually awarding points to users.
 class AwardPointsViewController: UIViewController, Storyboarded {
@@ -72,8 +73,30 @@ class AwardPointsViewController: UIViewController, Storyboarded {
 
     /// Performs the animation of granting points, while also actually performing the grant to the user data.
     func awardPoints() {
-        totalPoints.count(start: User.current.totalPoints, end: User.current.totalPoints + pointsToAward)
+
+        // User is in rank X before we add points
+        let currentUserRank = User.current.rankNumber
+
+        totalPoints.count(start: User.current.totalPoints,
+                          end: User.current.totalPoints + pointsToAward)
         earnedPoints.count(start: pointsToAward, end: 0)
+
+        if let pointsUntilNextRank = User.current.pointsUntilNextRank,
+           pointsUntilNextRank <= pointsToAward {
+            let levelUpSoundURL = Bundle.main.url(forResource: "levelUp", withExtension: "wav")!
+
+            do {
+                try AVAudioSession.sharedInstance().setCategory(.playback, mode: .default)
+                try AVAudioSession.sharedInstance().setActive(true)
+
+                let player = try AVAudioPlayer(contentsOf: levelUpSoundURL,
+                                           fileTypeHint: AVFileType.wav.rawValue)
+
+                player.play()
+            } catch let error {
+                print(error.localizedDescription)
+            }
+        }
 
         // save that they completed some work
         switch awardType {

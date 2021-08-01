@@ -75,6 +75,10 @@ class AwardPointsViewController: UIViewController, Storyboarded {
         totalPoints.count(start: User.current.totalPoints, end: User.current.totalPoints + pointsToAward)
         earnedPoints.count(start: pointsToAward, end: 0)
 
+        if User.current.willLevelUp(afterAwardedPoints: pointsToAward) {
+            AwardSound().play()
+        }
+
         // save that they completed some work
         switch awardType {
         case .learn(let chapter):

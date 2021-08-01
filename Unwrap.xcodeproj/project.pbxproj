@@ -595,6 +595,7 @@
 		51FE151C20E25F1200F29889 /* protocol-extensions.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 51FE139520E25F1100F29889 /* protocol-extensions.mp4 */; };
 		51FE151E20E2814E00F29889 /* StudyReview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE151D20E2814E00F29889 /* StudyReview.swift */; };
 		9B99CEED26B659B50096B5FA /* levelUp.wav in Resources */ = {isa = PBXBuildFile; fileRef = 9B99CEEC26B659B50096B5FA /* levelUp.wav */; };
+		9B99CEF226B65EF60096B5FA /* AwardSound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B99CEF126B65EF60096B5FA /* AwardSound.swift */; };
 		A9476512228DF2E7005CC249 /* DynamicHeightHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9476511228DF2E7005CC249 /* DynamicHeightHeaderView.swift */; };
 		B93AEC4B2273DB68005A50DF /* PracticeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEC4A2273DB68005A50DF /* PracticeTableViewCell.swift */; };
 		B93AEC4D2273DE70005A50DF /* ChallengeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B93AEC4C2273DE70005A50DF /* ChallengeTableViewCell.swift */; };
@@ -1234,6 +1235,7 @@
 		51FE151D20E2814E00F29889 /* StudyReview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyReview.swift; sourceTree = "<group>"; };
 		879EE4E91437B6378BB24AE1 /* Pods-Unwrap.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Unwrap.release.xcconfig"; path = "Pods/Target Support Files/Pods-Unwrap/Pods-Unwrap.release.xcconfig"; sourceTree = "<group>"; };
 		9B99CEEC26B659B50096B5FA /* levelUp.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = levelUp.wav; sourceTree = "<group>"; };
+		9B99CEF126B65EF60096B5FA /* AwardSound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwardSound.swift; sourceTree = "<group>"; };
 		A9476511228DF2E7005CC249 /* DynamicHeightHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DynamicHeightHeaderView.swift; sourceTree = "<group>"; };
 		AA4718A94B659E9A42AEC33E /* Pods-UnwrapTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnwrapTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-UnwrapTests/Pods-UnwrapTests.debug.xcconfig"; sourceTree = "<group>"; };
 		B93AEC4A2273DB68005A50DF /* PracticeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTableViewCell.swift; sourceTree = "<group>"; };
@@ -1361,6 +1363,7 @@
 			children = (
 				51596DFA20EE94DC00952ADC /* AwardPointsViewController.swift */,
 				51596DFE20EEBA1700952ADC /* AwardType.swift */,
+				9B99CEF126B65EF60096B5FA /* AwardSound.swift */,
 			);
 			path = Awards;
 			sourceTree = "<group>";
@@ -2890,6 +2893,7 @@
 				51A447612107ED97005D8665 /* BadgesView.swift in Sources */,
 				511FD6C2210746CC0023E92C /* TappableTextViewDelegate.swift in Sources */,
 				511FD6AF2105EF220023E92C /* NewsArticle.swift in Sources */,
+				9B99CEF226B65EF60096B5FA /* AwardSound.swift in Sources */,
 				51DDE52221107B170056020E /* PredictTheOutputAnswer.swift in Sources */,
 				51C5642D20CCC5480093030C /* Chapter.swift in Sources */,
 				5153F49220EF7430009E829D /* LearnCoordinator.swift in Sources */,

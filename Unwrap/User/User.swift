@@ -107,6 +107,13 @@ final class User: Codable {
         guard rankNumber < 21 else { return nil }
         return User.rankLevels[rankNumber] - totalPoints
     }
+    
+    func willLevelUp(afterAwardedPoints points: Int) -> Bool {
+        
+        guard let pointsUntilNextRank = User.current.pointsUntilNextRank else { return false }
+        
+        return pointsUntilNextRank <= points
+    }
 
     /// How far through this user is for their
     /// current rank, where 0.001 (the smallest value) means

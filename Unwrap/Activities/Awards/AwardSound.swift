@@ -19,8 +19,8 @@ class AwardSound {
             try AVAudioSession.sharedInstance().setActive(true)
 
             let player = try AVAudioPlayer(contentsOf: levelUpSoundURL,
-                                       fileTypeHint: AVFileType.wav.rawValue)
-
+                                           fileTypeHint: AVFileType.wav.rawValue)
+            
             player.play()
         } catch let error {
             print(error.localizedDescription)

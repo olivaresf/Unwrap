@@ -72,9 +72,7 @@ class AwardPointsViewController: UIViewController, Storyboarded {
 
     /// Performs the animation of granting points, while also actually performing the grant to the user data.
     func awardPoints() {
-
-        totalPoints.count(start: User.current.totalPoints,
-                          end: User.current.totalPoints + pointsToAward)
+        totalPoints.count(start: User.current.totalPoints, end: User.current.totalPoints + pointsToAward)
         earnedPoints.count(start: pointsToAward, end: 0)
 
         if User.current.willLevelUp(afterAwardedPoints: pointsToAward) {
